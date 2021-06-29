@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+/* .banner-background{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 65% 100%, 29% 89%, 0 100%, 0 0);
+action="RegisterServlet"
+<%-- novalidate onsubmit="return validate()" --%>
+} */
+.primary-background{
+    background:#0277bd!important;
+}
+.primary-background-cl{
+    background:#ff7043!important;
+}
+
+.banner-background{
+                  clip-path: polygon(30% 0, 100% 0, 100% 72%, 70.5% 100%, 0 100%, 0 25%);          
+            }
+            
+.error {
+		color: red;
+		font-style: italic;
+	}
+	
+.banner{
+	width:100%;
+	height:150vh;
+	background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../img/banner.jpg);
+	background-size:cover;
+	color:white;
+}
